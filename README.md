@@ -17,3 +17,5 @@ Following is the demo run of `TestBST.java`:
 
 ![image](https://user-images.githubusercontent.com/24220136/232404617-5f73b177-f490-432d-914f-17aba13d0446.png)
 
+![image](https://user-images.githubusercontent.com/24220136/232405847-ce4a3d42-316f-4b89-a491-2a175717e2c3.png)
+
