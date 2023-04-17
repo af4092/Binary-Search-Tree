@@ -14,3 +14,6 @@ A special type of binary tree called a `binary search tree` (BST) is often usefu
 Following is the demo run of `TestBST.java`:
 
 ![image](https://user-images.githubusercontent.com/24220136/232379641-2f371503-f4a3-48cc-a2bc-50ecf3a7294c.png)
+
+![image](https://user-images.githubusercontent.com/24220136/232404617-5f73b177-f490-432d-914f-17aba13d0446.png)
+
