@@ -19,7 +19,7 @@ Following is the demo run of `TestBST.java`:
 
 ![image](https://user-images.githubusercontent.com/24220136/232405847-ce4a3d42-316f-4b89-a491-2a175717e2c3.png)
 
-*[AVL Tree](https://en.wikipedia.org/wiki/Bubble_sort)*
+*[AVL Tree](https://en.wikipedia.org/wiki/AVL_tree)*
 ------------------
 
 AVL Tree is a balanced binary search tree. The search, insertion, and deletion times for a binary tree depend on the height of the tree. In the worst case, the height is O(n). If a tree is perfectly balanced–i.e., a complete binary tree—its height is log n. To maintain a well-balanced tree, the heights of every node’s two subtrees should be the same. AVL trees are well balanced. AVL trees were invented in 1962 by two Russian computer scientists, G. M. Adelson-Velsky and E. M. Landis (hence the name AVL). 
@@ -33,7 +33,7 @@ Since an AVL tree is a binary search tree, AVLTree is designed as a subclass of 
 
 ![image](https://user-images.githubusercontent.com/24220136/232673155-7d72b908-4945-4421-aa1d-d9616f929210.png)
 
-AVL Tree was implemented in `AVLTree.java` and was successfully tested in `TestAVLTree.java` source codes which are located in side the BinarySearchTree folder. Following is the test demo run:
+AVL Tree was implemented in `AVLTree.java` and was successfully tested in `TestAVLTree.java` source codes which are located in side the `BinarySearchTree` folder. Following is the test demo run:
 
 ![image](https://user-images.githubusercontent.com/24220136/232673536-4c04ff7c-803e-42e0-87a4-b28c64d5dfd5.png)
 
