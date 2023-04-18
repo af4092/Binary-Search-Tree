@@ -1,5 +1,5 @@
 # [Binary-Search-Tree](https://en.wikipedia.org/wiki/Binary_search_tree)
-### Binary Search Tree, test and visualize 
+### Binary Search Tree, AVL Tree, test and visualize 
 
 Following repo first builds the Binary Search Tree BST.java which includes AbstractTree.java, Tree.interface. Then in the TestBST.java checks the previously given classes.
 
@@ -18,4 +18,24 @@ Following is the demo run of `TestBST.java`:
 ![image](https://user-images.githubusercontent.com/24220136/232404617-5f73b177-f490-432d-914f-17aba13d0446.png)
 
 ![image](https://user-images.githubusercontent.com/24220136/232405847-ce4a3d42-316f-4b89-a491-2a175717e2c3.png)
+
+*[AVL Tree](https://en.wikipedia.org/wiki/Bubble_sort)*
+------------------
+
+AVL Tree is a balanced binary search tree. The search, insertion, and deletion times for a binary tree depend on the height of the tree. In the worst case, the height is O(n). If a tree is perfectly balanced–i.e., a complete binary tree—its height is log n. To maintain a well-balanced tree, the heights of every node’s two subtrees should be the same. AVL trees are well balanced. AVL trees were invented in 1962 by two Russian computer scientists, G. M. Adelson-Velsky and E. M. Landis (hence the name AVL). 
+
+![image](https://user-images.githubusercontent.com/24220136/232673329-b9df65c7-fdf4-482e-ba09-c98c7c894b01.png)
+
+In an AVL tree, the difference between the heights of every node’s two subtrees is 0 or 1. It is fact that the maximum height of an AVL tree is O(log n). The process for inserting or deleting an element in an AVL tree is the same as in a regular
+binary search tree, except that you may have to rebalance the tree after an insertion or deletion operation. The balance factor of a node is the height of its right subtree minus the height of its left subtree. A node is said to be balanced if its balance factor is -1, 0, or 1. A node is considered left-heavy if its balance factor is -1, and right-heavy if its balance factor is +1.
+
+Since an AVL tree is a binary search tree, AVLTree is designed as a subclass of BST. An AVL tree is a binary tree, so we can define the AVLTree class to extend the BST class, as shown in the following UML diagram:
+
+![image](https://user-images.githubusercontent.com/24220136/232673155-7d72b908-4945-4421-aa1d-d9616f929210.png)
+
+AVL Tree was implemented in `AVLTree.java` and was successfully tested in `TestAVLTree.java` source codes which are located in side the BinarySearchTree folder. Following is the test demo run:
+
+![image](https://user-images.githubusercontent.com/24220136/232673536-4c04ff7c-803e-42e0-87a4-b28c64d5dfd5.png)
+
+
 
